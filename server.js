@@ -23,10 +23,10 @@ app.use(express.json());
 // CORS configuration - Allow requests from your Hostinger domain
 app.use(cors({
     origin: [
-        'https://yourdomain.com',           // Replace with your Hostinger domain
-        'http://yourdomain.com',            // HTTP version (if needed)
-        'https://www.yourdomain.com',       // WWW version
-        'http://www.yourdomain.com'         // WWW HTTP version
+        'https://whatsapp.bhavanamsc2c.com',           // Replace with your Hostinger domain
+        'http://whatsapp.bhavanamsc2c.com',            // HTTP version (if needed)
+        'https://www.whatsapp.bhavanamsc2c.com',       // WWW version
+        'http://www.whatsapp.bhavanamsc2c.com'         // WWW HTTP version
     ],
     credentials: true,
     methods: ['GET', 'POST', 'DELETE', 'PUT', 'OPTIONS'],
